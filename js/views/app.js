@@ -1,4 +1,9 @@
 var app = app || {};
+var ENTER_KEY = 13;
+
+$(function() {
+  new app.AppView();
+});
 
 app.AppView = Backbone.View.extend({
   el: '#todoapp',
